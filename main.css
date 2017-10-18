@@ -1,18 +1,25 @@
-html{
+html, body{
   font-family: Orbitron;
   background: black;
   color: #1be71b;
 }
-.hashes {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  grid-auto-columns: minmax(20%, 30%);
+
+body{
+}
+
+
+.col-xs-12{
 }
 
 .hash_algo{
   border: 0.5px solid rgb(44, 140, 49);
   padding: 10px;
+  margin: 0px 2px 0px 2px;
+  height: 95%;
+}
+
+.header{
+  padding-top: 2%;
 }
 
 .algo{
@@ -31,8 +38,8 @@ html{
   background-color: green;
   border: 2px solid green;
   color: #fff;
-  width: 100px;
-  margin-left: 20px;
+  width: 100%;
+  margin-left: 0;
   font-family: Orbitron;
   -webkit-transition: all 0.5s ease-in;
   -moz-transition: all 0.5s ease-in;
@@ -59,8 +66,10 @@ html{
 
 small{
   font-size: 12px;
+  word-wrap: break-word;
 }
 
 p{
   margin: 10px 0;
+  word-wrap: break-word;
 }
